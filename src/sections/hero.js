@@ -22,7 +22,7 @@ export function Hero() {
         <Animated animationIn="bounceInLeft" animationOut="fadeOut" isVisible={true}>
           <Box sx={styles.grid}>
             <Box sx={styles.domainCard}>
-              <Heading>Um novo perfil de <Text as="span" color='secondary'>empresa contábil</Text></Heading>
+              <Heading>Consultoria e Assessoria <Text as="span" color='secondary'> Contábil </Text></Heading>
 
               <Text as="p" mb={6}>
                 Queremos entender o que você precisa, <br />

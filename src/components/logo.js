@@ -10,9 +10,9 @@ export default function Logo({ isSticky, footer, ...props }) {
   return (
     <Link path="/" sx={styles.logo} {...props}>
       {isSticky ? (
-          <Image src={logo} loading="lazy" alt="logo" />
+          <Image src={logo} loading="lazy" alt="logo" width={240} />
         ) : (
-          <Image src={logoBranco} loading="lazy" alt="logo" />
+          <Image src={logoBranco} loading="lazy" alt="logo" width={240} />
       )}
       {/* <LogoSvg white={!isSticky} /> */}
     </Link>

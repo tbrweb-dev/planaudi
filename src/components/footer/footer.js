@@ -20,7 +20,7 @@ export function Footer() {
           <Box sx={styles.footerTopInner}>
             <Box sx={styles.about}>
               <Box sx={styles.logo}>
-                <Image src={Logo} loading="lazy" alt="Modelo Contabilidade" />
+                <Image src={Logo} width={300} loading="lazy" alt="Modelo Contabilidade" />
               </Box>
 
               <Text as="p" sx={styles.copyright}>
